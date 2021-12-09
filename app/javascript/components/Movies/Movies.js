@@ -25,12 +25,12 @@ const Movies = () => {
 
     return (
         <div className="home">
-            <div>
+            <div className="header">
                 <h1>MovieList</h1>
                 <div className="subheader">Tell us what you think !</div>
             </div>
             <div className="grid">
-                <ul>{grid}</ul>
+                {grid}
             </div>
         </div>   
     )
