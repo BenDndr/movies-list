@@ -2,6 +2,7 @@ import React, { useState, useEffect, Fragment } from 'react'
 import axios from 'axios'
 import Movie from './Movie'
 
+
 const Movies = () => {
     const [movies, setMovies] = useState([])
 

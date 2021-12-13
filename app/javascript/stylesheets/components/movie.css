@@ -1,0 +1,40 @@
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.column {
+    background: #fff;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.column:last-child {
+    background: black
+}
+
+.main {
+    padding-left: 50px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-m {
+    padding: 50px 100px 50px 0;
+}
+
+.totalReviews {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.totalOutOf {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+}
